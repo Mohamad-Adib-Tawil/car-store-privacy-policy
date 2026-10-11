@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car Store Account and Data Deletion</title>
+    <meta
+      name="description"
+      content="Request account deletion or data deletion for the Car Store app."
+    />
+    <link rel="stylesheet" href="../styles.css" />
+    <style>
+      .actions {
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+        margin-top: 20px;
+      }
+
+      .action-button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 48px;
+        padding: 12px 18px;
+        border-radius: 14px;
+        text-decoration: none;
+        font-weight: 700;
+        transition: 180ms ease;
+      }
+
+      .action-button--primary {
+        background: linear-gradient(135deg, var(--primary), var(--primary-strong));
+        color: #151515;
+      }
+
+      .action-button--secondary {
+        border: 1px solid var(--line);
+        color: var(--text);
+        background: rgba(255, 255, 255, 0.03);
+      }
+
+      .note-card {
+        margin-top: 24px;
+        padding: 18px;
+        border: 1px solid var(--line);
+        border-radius: 16px;
+        background: rgba(255, 255, 255, 0.03);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div class="hero__badge">Car Store</div>
+        <h1 id="page-title">Account and Data Deletion</h1>
+        <p id="page-subtitle">
+          Use this page to request deletion of your Car Store account or specific
+          personal data associated with your account.
+        </p>
+
+        <div class="language-switcher" aria-label="Language switcher">
+          <button
+            class="language-switcher__button is-active"
+            type="button"
+            data-lang-button="en"
+          >
+            English
+          </button>
+          <button
+            class="language-switcher__button"
+            type="button"
+            data-lang-button="ar"
+          >
+            العربية
+          </button>
+        </div>
+      </header>
+
+      <main class="content-card">
+        <section class="policy policy--active" data-lang="en" lang="en" dir="ltr">
+          <p class="policy__updated"><strong>Last updated:</strong> April 4, 2026</p>
+
+          <section>
+            <h2>How to Request Account Deletion</h2>
+            <p>
+              To request deletion of your Car Store account and the data linked to
+              it, send an email to
+              <a href="mailto:mohamad.adib.tawil@gmail.com?subject=Car Store%20Account%20Deletion%20Request">mohamad.adib.tawil@gmail.com</a>
+              with the subject line <strong>Car Store Account Deletion Request</strong>.
+            </p>
+            <p>Please include the following in your message:</p>
+            <ul>
+              <li>The email address or phone number linked to your account.</li>
+              <li>Your full name if available in the account profile.</li>
+              <li>A clear request stating whether you want account deletion or only partial data deletion.</li>
+            </ul>
+            <div class="actions">
+              <a
+                class="action-button action-button--primary"
+                href="mailto:mohamad.adib.tawil@gmail.com?subject=Car Store%20Account%20Deletion%20Request"
+              >
+                Request Account Deletion
+              </a>
+              <a
+                class="action-button action-button--secondary"
+                href="mailto:mohamad.adib.tawil@gmail.com?subject=Car Store%20Data%20Deletion%20Request"
+              >
+                Request Data Deletion
+              </a>
+            </div>
+          </section>
+
+          <section>
+            <h2>What Will Be Deleted</h2>
+            <p>
+              After verifying the request, Car Store will process deletion of the
+              account data that can be associated with your user identity,
+              including where applicable:
+            </p>
+            <ul>
+              <li>Profile information such as name, email, phone number, avatar, and location details.</li>
+              <li>Your showroom inquiries and uploaded attachments.</li>
+              <li>Your favorites and notification records.</li>
+              <li>Your chat content and related uploaded attachments where deletion is technically and legally permitted.</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>What May Be Retained</h2>
+            <p>
+              Some limited data may be retained for a defined period when needed
+              for legal compliance, fraud prevention, dispute handling, or
+              security. Backup copies may persist for up to 90 days before final
+              removal.
+            </p>
+          </section>
+
+          <section>
+            <h2>Partial Data Deletion</h2>
+            <p>
+              If you do not want to delete the full account, you may request
+              deletion of specific categories of personal data only. In your
+              email, clearly identify the type of data you want deleted, such as
+              profile photo, inquiry attachments, chat attachments, or notifications.
+            </p>
+          </section>
+
+          <section>
+            <h2>Processing Method</h2>
+            <p>
+              At this time, deletion requests are processed manually after
+              identity verification. Car Store does not currently provide a
+              self-service in-app button for full account deletion.
+            </p>
+            <div class="note-card">
+              <p>
+                If you contact us from an email address different from the one
+                used in the app, we may ask for additional verification before
+                completing the request.
+              </p>
+            </div>
+          </section>
+
+          <section>
+            <h2>Contact</h2>
+            <p>
+              Email:
+              <a href="mailto:mohamad.adib.tawil@gmail.com">mohamad.adib.tawil@gmail.com</a>
+            </p>
+          </section>
+        </section>
+
+        <section class="policy" data-lang="ar" lang="ar" dir="rtl">
+          <p class="policy__updated"><strong>آخر تحديث:</strong> 4 أبريل 2026</p>
+
+          <section>
+            <h2>طريقة طلب حذف الحساب</h2>
+            <p>
+              لطلب حذف حسابك في Car Store والبيانات المرتبطة به، أرسل رسالة إلى
+              البريد الإلكتروني
+              <a href="mailto:mohamad.adib.tawil@gmail.com?subject=%D8%B7%D9%84%D8%A8%20%D8%AD%D8%B0%D9%81%20%D8%AD%D8%B3%D8%A7%D8%A8%20Car Store">mohamad.adib.tawil@gmail.com</a>
+              بعنوان <strong>طلب حذف حساب Car Store</strong>.
+            </p>
+            <p>يرجى تضمين المعلومات التالية في الرسالة:</p>
+            <ul>
+              <li>البريد الإلكتروني أو رقم الهاتف المرتبط بالحساب.</li>
+              <li>الاسم الكامل إن كان موجودًا داخل الملف الشخصي.</li>
+              <li>توضيح ما إذا كنت تريد حذف الحساب كاملًا أو حذف جزء من البيانات فقط.</li>
+            </ul>
+            <div class="actions">
+              <a
+                class="action-button action-button--primary"
+                href="mailto:mohamad.adib.tawil@gmail.com?subject=%D8%B7%D9%84%D8%A8%20%D8%AD%D8%B0%D9%81%20%D8%AD%D8%B3%D8%A7%D8%A8%20Car Store"
+              >
+                طلب حذف الحساب
+              </a>
+              <a
+                class="action-button action-button--secondary"
+                href="mailto:mohamad.adib.tawil@gmail.com?subject=%D8%B7%D9%84%D8%A8%20%D8%AD%D8%B0%D9%81%20%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA%20Car Store"
+              >
+                طلب حذف البيانات
+              </a>
+            </div>
+          </section>
+
+          <section>
+            <h2>ما الذي سيتم حذفه</h2>
+            <p>
+              بعد التحقق من الطلب، سيقوم Car Store بمعالجة حذف بيانات الحساب التي
+              يمكن ربطها بهوية المستخدم، ويشمل ذلك عند الاقتضاء:
+            </p>
+            <ul>
+              <li>بيانات الملف الشخصي مثل الاسم والبريد الإلكتروني ورقم الهاتف والصورة والموقع.</li>
+              <li>إعلانات السيارات والصور المرفوعة الخاصة بها.</li>
+              <li>المفضلة وسجلات الإشعارات.</li>
+              <li>محتوى الدردشة والمرفقات المرتبطة بها متى كان الحذف ممكنًا تقنيًا ومسموحًا قانونيًا.</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>ما الذي قد يتم الاحتفاظ به</h2>
+            <p>
+              قد يتم الاحتفاظ ببيانات محدودة لفترة محددة إذا كان ذلك مطلوبًا
+              للامتثال القانوني أو منع الاحتيال أو معالجة النزاعات أو لأسباب
+              أمنية. وقد تبقى النسخ الاحتياطية لمدة تصل إلى 90 يومًا قبل
+              الإزالة النهائية.
+            </p>
+          </section>
+
+          <section>
+            <h2>حذف جزء من البيانات فقط</h2>
+            <p>
+              إذا كنت لا ترغب في حذف الحساب بالكامل، يمكنك طلب حذف فئات محددة من
+              بياناتك الشخصية فقط. يرجى توضيح نوع البيانات المطلوب حذفها داخل
+              الرسالة، مثل صورة الملف الشخصي أو الإعلانات أو مرفقات الدردشة أو
+              الإشعارات.
+            </p>
+          </section>
+
+          <section>
+            <h2>آلية التنفيذ</h2>
+            <p>
+              في الوقت الحالي تتم معالجة طلبات الحذف يدويًا بعد التحقق من هوية
+              صاحب الطلب. لا يوفّر Car Store حاليًا زرًا ذاتيًا داخل التطبيق
+              لحذف الحساب بشكل كامل.
+            </p>
+            <div class="note-card">
+              <p>
+                إذا تواصلت معنا من بريد إلكتروني مختلف عن المستخدم في التطبيق،
+                فقد نطلب معلومات إضافية للتحقق قبل إكمال الحذف.
+              </p>
+            </div>
+          </section>
+
+          <section>
+            <h2>التواصل</h2>
+            <p>
+              البريد الإلكتروني:
+              <a href="mailto:mohamad.adib.tawil@gmail.com">mohamad.adib.tawil@gmail.com</a>
+            </p>
+          </section>
+        </section>
+      </main>
+    </div>
+
+    <script>
+      const pageTitle = document.getElementById("page-title");
+      const pageSubtitle = document.getElementById("page-subtitle");
+      const policies = document.querySelectorAll("[data-lang]");
+      const buttons = document.querySelectorAll("[data-lang-button]");
+
+      const translations = {
+        en: {
+          title: "Account and Data Deletion",
+          subtitle:
+            "Use this page to request deletion of your Car Store account or specific personal data associated with your account.",
+        },
+        ar: {
+          title: "حذف الحساب والبيانات",
+          subtitle:
+            "استخدم هذه الصفحة لطلب حذف حساب Car Store أو حذف بيانات شخصية محددة مرتبطة بحسابك.",
+        },
+      };
+
+      function setLanguage(lang) {
+        document.documentElement.lang = lang;
+        document.documentElement.dir = lang === "ar" ? "rtl" : "ltr";
+
+        pageTitle.textContent = translations[lang].title;
+        pageSubtitle.textContent = translations[lang].subtitle;
+
+        policies.forEach((section) => {
+          const isActive = section.dataset.lang === lang;
+          section.classList.toggle("policy--active", isActive);
+        });
+
+        buttons.forEach((button) => {
+          const isActive = button.dataset.langButton === lang;
+          button.classList.toggle("is-active", isActive);
+        });
+      }
+
+      buttons.forEach((button) => {
+        button.addEventListener("click", () => {
+          setLanguage(button.dataset.langButton);
+        });
+      });
+
+      setLanguage("en");
+    </script>
+  </body>
+</html>
